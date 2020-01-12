@@ -22,7 +22,7 @@
        </repository>
 	   
 	   <snapshotRepository>
-         <id>snapshot</id>
+         <id>snapshots</id>
         
          <url>http://3.134.118.201:8081/repository/maven-snapshots/</url>
        </snapshotRepository>
