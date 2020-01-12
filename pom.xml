@@ -16,10 +16,17 @@
   
 <distributionManagement>
        <repository>
-         <id>internal.repo</id>
-         <name>Internal repo</name>
-         <url>file:///var/lib/jenkins/myartifacts/</url>
+         <id>releases</id>
+         
+         <url>http://3.134.118.201:8081/repository/maven-releases/</url>
        </repository>
+	   
+	   <snapshotRepository>
+         <id>snapshot</id>
+        
+         <url>http://3.134.118.201:8081/repository/maven-snapshots/</url>
+       </snapshotRepository>
+	   
    </distributionManagement>
 
   <dependencies>
